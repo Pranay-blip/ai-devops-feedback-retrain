@@ -1,6 +1,8 @@
 {
   "accuracy": 0.9667,
-  "train_samples": 120,
-  "feedback_samples": 0,
-  "trained_at": "2026-10-09T14:38:10"
+  "train_samples": 145,
+  "feedback_samples": 25,
+  "trained_at": "2026-10-09T14:56:18",
+  "version": 2,
+  "promoted_at": "2026-10-09T14:56:18"
 }
