@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    image: iris-feedback-api:1.0
+    container_name: iris-feedback-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
